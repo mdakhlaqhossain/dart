@@ -1,4 +1,4 @@
-main(){
+void main(){
   var listNum = [10,20,30,40];
   listNum.add(50);//add at last
 
