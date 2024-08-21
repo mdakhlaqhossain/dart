@@ -3,10 +3,6 @@ void main() {
   intValue = 1; // initialization/assing of integer value
   print(intValue);
   
-  int? nullValue; // declaration with null safety
-  print(nullValue);
-
-  
   int intValue2 = 5; // declaration with initialization
   print(intValue2);
 
@@ -15,6 +11,7 @@ void main() {
 
   intValue = 2; // re-assing
   print(intValue);
+  print(intValue.isEven);
 
   double fractionalValue = 343.3553; // initialization of fractional value
   print(longValue);
@@ -26,6 +23,11 @@ void main() {
   isLogin=true;
   print(isLogin);
 
-  String myName="Alom";
-  print(myName);
+  String greeting = 'Hello,World';
+  print (greeting);
+  print('$greeting From Bangladesh');//string interpolation
+  print('${greeting.length} From \nBangladesh');//string interpolation & new line
+  greeting = greeting + ''' From 
+  Dhaka'''; //string concatenation & multiline string
+  print(greeting);
 }

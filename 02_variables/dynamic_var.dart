@@ -6,7 +6,15 @@ void main() {
 
   var studySec; //dynamic datatype
   studySec='Doel'; //type String
+  print (studySec.runtimeType);
   studySec=3; //type Integer
+  print (studySec.runtimeType);
   studySec=true; //type Boolean
+  print (studySec.runtimeType);
   print("Your Section: $studySec");
+
+  dynamic greeting = 'Hello, World';
+  print (greeting.runtimeType);
+  greeting = 10;
+  print (greeting.runtimeType);
 }

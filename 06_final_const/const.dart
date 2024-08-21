@@ -4,6 +4,7 @@ void main(){
 
   const city='Dhaka';//one time initialize using one statement
 
+  print(name.length);
   print(name);
   print(age);
   print(city);

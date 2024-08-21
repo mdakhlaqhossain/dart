@@ -5,6 +5,7 @@ void main(){
   final city;//one time declare
   city='Dhaka';//one time initialize
 
+  print(name.length);
   print(name);
   print(age);
   print(city);
