@@ -13,6 +13,7 @@ void main() {
   print(intValue);
   print(intValue.isEven);
 
+  // ignore: unused_local_variable
   double fractionalValue = 343.3553; // initialization of fractional value
   print(longValue);
   
