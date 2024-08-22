@@ -1,9 +1,9 @@
 void main(){
-   var x = 20, y = 30;
-   print("x > y is: ${x > y}");
-   print("x < y is: ${x < y}");
-   print("x >= y is: ${x >= y}");
-   print("x <= y is: ${x <= y}");
-   print("x == y is: ${x == y}");
-   print("x != y is: ${x != y}");
+   var var1 = 20, var2 = 30;
+   print("var1 > var2 is: ${var1 > var2}");
+   print("var1 < var2 is: ${var1 < var2}");
+   print("var1 >= var2 is: ${var1 >= var2}");
+   print("var1 <= var2 is: ${var1 <= var2}");
+   print("var1 == var2 is: ${var1 == var2}");
+   print("var1 != var2 is: ${var1 != var2}");
 }

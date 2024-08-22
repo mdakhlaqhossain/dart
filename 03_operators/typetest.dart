@@ -6,3 +6,4 @@ void main(){
    print(x is! int);
    print(x is! bool);
 }
+

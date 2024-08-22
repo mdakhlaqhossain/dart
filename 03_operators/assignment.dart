@@ -1,34 +1,14 @@
 void main(){
-   var x = 10;
-   print("x = 10 -> ${x}");
-
-   x += 15;
-   print("x += 15 -> ${x}");
-
-   x -= 10;
-   print("x -= 10 -> ${x}");
-
-   x *= 10;
-   print("x *= 10 -> ${x}");
-
-   x ~/= 5;
-   print("x /= 5 -> ${x}");
-
-   x %= 7;
-   print("x %= 7 -> ${x}");
-
-   x <<= 2;
-   print("x <<= 2 -> ${x}");
-
-   x >>= 3;
-   print("x >>= 3 -> ${x}");
-
-   x &= 2;
-   print("x &= 2 -> ${x}");
-
-   x ^= 5;
-   print("x ^= 5 -> ${x}");
-
-   x |= 10;
-   print("x |= 10 -> ${x}");
+   var vAssign = 10;
+   print("vAssign = 10 -> $vAssign");
+   print("vAssign += 15 -> ${vAssign += 15}");
+   print("vAssign -= 10 -> ${vAssign -= 10}");
+   print("vAssign *= 10 -> ${vAssign *= 10}");
+   print("vAssign /= 5 -> ${vAssign ~/= 5}");
+   print("vAssign %= 7 -> ${vAssign %= 7}");
+   print("vAssign <<= 2 -> ${vAssign <<= 2}");
+   print("vAssign >>= 3 -> ${vAssign >>= 3}");
+   print("vAssign &= 2 -> ${vAssign &= 2}");
+   print("vAssign ^= 5 -> ${vAssign ^= 5}");
+   print("vAssign |= 10 -> ${vAssign |= 10}");
 }

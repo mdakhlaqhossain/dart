@@ -1,14 +1,21 @@
 void main() {
+
+  var sports;
+  var health = sports ?? "Gymnasium";
+  print(health);
+
+  var rides="Cycle";
+  sports = "Football";
+  health = sports ?? rides;
+  print(health);
+
   var age;
-  age = age ?? 23;
+  age ??= 23;
   print(age);
 
-  var name = "mukul";
-  name = name ?? "suruchi";
-  print(name);
+  var city;
+  city='Dhaka';
+  city ??= 'Cumilla';
+  print(city);
 
-  var age2;
-  var myAge = 24;
-  myAge ??= age2;
-  print(myAge);
 }
