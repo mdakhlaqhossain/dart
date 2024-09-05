@@ -11,6 +11,7 @@ void main(){
   
   int no2=100;
   do {
-    print("No2 is $no2");
+    print("No2 is $no2");// at least one time execute
+    no2++;
   }while(no2<50);
 }

@@ -16,6 +16,6 @@ void main() {
         break; 
       default: { 
         print("Invalid choice"); 
-      } break; 
+      } break; //it through out from the switch statement 
    } 
 }  
