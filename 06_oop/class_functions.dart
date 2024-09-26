@@ -1,4 +1,3 @@
-//pop=procedural/functional oriented programming
 void main(){
   var classVar=myClass(); // creating object
   classVar.printNam("Akash");

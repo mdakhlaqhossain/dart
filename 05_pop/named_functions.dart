@@ -1,3 +1,5 @@
+//pop=procedural/functional oriented programming
+//camelCaseForFunctionName
 void main(){
   String nm = namePrint();
 
